@@ -1,0 +1,93 @@
+.seventy {
+    height: 765px;
+
+    &__wrapper {
+        padding: 128px 70px;
+        display: flex;
+    }
+
+    &__left {
+        margin-top: 120px;
+        width: 600px;
+        height: 260px;
+
+        &-buttonOne {
+            width: 112px;
+            height: 24px;
+            background: rgba(255, 193, 71, 0.6);
+            border: 2px solid #FFC147;
+            border-radius: 100px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #1E313B;
+        }
+
+        &-text {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 35px;
+            color: #1E313B;
+            padding-top: 30px;
+        }
+
+        &-buttonTwo {
+            width: 132px;
+            height: 42px;
+            background: #1E313B;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            border: none;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            padding: 8px 15px 9px 15px;
+            margin-top: 56px;
+        }
+    }
+
+    &__right {
+        width: 600px;
+        height: 510px;
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+
+
+        h4 {
+            margin-left: 102px;
+
+        }
+
+        &-text {
+            margin: 12px 0 0 102px;
+        }
+
+        &-items {
+            position: relative;
+            margin-top: 65px;
+
+            &:last-child {
+                &::after {
+                    display: none;
+                }
+            }
+
+            &::after {
+                content: '';
+                width: 2px;
+                height: 104%;
+                position: absolute;
+                background: rgba(0, 0, 0, 0.15);
+                top: 63px;
+                left: 31px;
+            }
+        }
+
+        &-item {
+            position: absolute;
+
+        }
+    }
+}
