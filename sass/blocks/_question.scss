@@ -1,0 +1,38 @@
+.question {
+    height: 260px;
+    background: #794EFF;
+
+    &__box {
+        padding-top: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h4 {
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 62px;
+        color: #FFFFFF;
+    }
+
+    button {
+        width: 154px;
+        height: 55px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        border: none;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #1E313B;
+        margin-top: 25px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+}

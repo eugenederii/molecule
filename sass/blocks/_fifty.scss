@@ -1,0 +1,73 @@
+.fifty {
+    height: 850px;
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__meet {
+        margin-top: 272px;
+        width: 575px;
+
+        &-buttonn {
+            width: 93px;
+            height: 24px;
+            background: rgba(121, 78, 255, 0.8);
+            border: 2px solid #794EFF;
+            border-radius: 100px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+
+        h3 {
+            margin-top: 29px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 35px;
+            color: #1E313B;
+
+            span {
+                color: #794EFF;
+            }
+        }
+
+        p {
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #1E313B;
+        }
+
+        button {
+            margin-top: 37px;
+            width: 141px;
+            height: 42px;
+            background: #794EFF;
+            border-radius: 6px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            border: none;
+        }
+    }
+
+    &__photos {
+        margin-left: 80px;
+        margin-top: 128px;
+        display: grid;
+        grid-template-columns: repeat(2, 280px);
+        grid-template-rows: repeat(2, 280px);
+        gap: 20px;
+        object-fit: contain;
+
+        .vertical {
+            padding-top: 151px;
+        }
+
+
+    }
+}

@@ -1,0 +1,70 @@
+.carousel {
+    padding: 128px 0;
+    background: #F6F6F6;
+
+    &__inner {
+        position: relative;
+        width: 768px;
+        margin: 0 auto;
+
+
+        .slick-prev {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -170px;
+            background-color: #F6F6F6;
+            border: none;
+        }
+
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -170px;
+            background-color: #F6F6F6;
+            border: none;
+        }
+    }
+}
+
+.slide {
+
+
+    &__screen {
+        padding-left: 320px;
+    }
+
+    &__text {
+        padding-left: 40px;
+        text-align: center;
+        margin-top: 34px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #1E313B;
+    }
+
+    &__photo {
+        padding-top: 30px;
+        padding-left: 344px;
+    }
+
+    &__name {
+        padding-top: 15px;
+        padding-left: 338px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1E313B;
+    }
+
+    &__work {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 265px;
+        color: #1E313B;
+        padding-top: 10px;
+    }
+}
